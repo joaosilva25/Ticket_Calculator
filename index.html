@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="code.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7 area_left d-flex justify-content-center align-items-center flex-column">
+                    <img src="assets/images/HeroImg.png">
+                    <p>Copywright ® 2023 All rights reserved This project he has created by João Vitor Da Silva Pinto</p>
+            </div>
+            <aside class="col-5 area_right">
+                <div class="conteudo mt-5">
+                    <h5> Simplifique o cálculo do valor de um link com base no 'ticket' e no 'credito disponível' usando nosso código. Obtenha o resultado desejado em poucos passos.
+
+                        Calcule o valor do link dividindo o 'credito disponível' por 12 e multiplicando por 10. Subtraia esse valor do 'ticket' para encontrar a quantia restante a ser paga.
+                        
+                        Aproveite os benefícios de simplificar suas tarefas
+                    </h5>
+                    <fieldset>
+                        Crédito Disponível
+                        <input class="credit" type="number"  placeholder="Credito disponível"><br><br>
+                        Ticket<br>
+                        <input class="ticket" type="number" placeholder="Valor do produto">
+                        <br><br>
+                        <button class="calculadora" onclick="calculate()">
+                            <ion-icon class="icon" name="cash-outline"></ion-icon>
+                        </button>
+                        <div class="newButton"></div>
+                        <h3></h3>
+                    </fieldset>
+                </div>
+            </aside>
+        </div>
+    </div>
+    
+    
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="code.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

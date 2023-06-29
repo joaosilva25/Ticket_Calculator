@@ -1,0 +1,128 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-family: Inter;
+    overflow: hidden;
+    
+}
+
+.area_left {
+    background-color: rgba(55, 48, 107, 0.73);;
+    height: 100vh;
+}
+
+.area_left img{
+    position:relative;top:5vh;left:80px;
+    overflow: hidden;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.342));
+}
+
+
+
+h1 {
+    font-size:80px;
+    color:white;
+    text-shadow: 0px 4px 4px 0px #727272;
+}
+h5 {
+    text-align: left;
+    font-size:13px;
+    color:#8C8C8C;
+    line-height: 20px;
+}
+
+h3 {
+    font-size:18px;
+    margin-top: 10px;
+    color:#8C8C8C;
+    line-height: 35px;
+}
+
+
+footer {
+    position:relative;top:40vh;
+}
+p {
+    position:relative;bottom:20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    z-index: 1;
+}
+
+fieldset {
+    margin-top: 10%;
+    color: #8C8C8C;
+}
+
+.conteudo {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #64646494;
+    background: rgba(255, 255, 255, 0.31);
+    box-shadow: 0px 4px 4px 0px #d2768523;
+    border-radius: 10px;
+    padding:10px;
+    color: #8C8C8C;
+}
+
+.date input {
+    height: 40px;
+    width:150px;
+}
+
+select {
+    border:1px solid #64646494;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.31);
+    padding:10px;
+    color:#79A086
+}
+
+button {
+    margin-top: 5px;
+    width:80px;
+    padding:8px;
+    border:none;
+    color:white;
+    background-color: rgba(55, 48, 107, 0.73);
+    border-radius: 25px;
+    box-shadow:0px 7px 0px  #d27685a1;
+}
+
+button:hover {
+    box-shadow:0px 0px 0px  #d27685a1;
+    transform:translateY(10px)
+}
+
+.icon {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+span {
+    color: rgba(55, 48, 107, 0.73);
+    font-size:22px;
+    font-weight: bold;
+}
+
+.intern {
+    width:40px;
+    height: 50px;
+    background-color: #727272;
+    position: absolute;top: 2px;
+}
+
+input::placeholder {
+    color: #8c8c8c6c;
+}
+
+.newButton {
+    height: 80px;
+}
