@@ -7,33 +7,25 @@
 }
 
 .area_left {
-    background-color: rgba(55, 48, 107, 0.73);;
+    background-color: rgba(55, 48, 107, 0.73);
     height: 100vh;
 }
 
 .area_left img{
-    position:relative;top:5vh;left:80px;
     overflow: hidden;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.342));
 }
 
-
-
-h1 {
-    font-size:80px;
-    color:white;
-    text-shadow: 0px 4px 4px 0px #727272;
-}
 h5 {
     text-align: left;
-    font-size:13px;
+    font-size: 80%;
     color:#8C8C8C;
     line-height: 20px;
 }
 
 h3 {
-    font-size:18px;
-    margin-top: 10px;
+    font-size:100%;
+    margin-top: 10%;
     color:#8C8C8C;
     line-height: 35px;
 }
@@ -43,7 +35,7 @@ footer {
     position:relative;top:40vh;
 }
 p {
-    position:relative;bottom:20px;
+    position:relative;bottom:100px;
     color: #FFF;
     text-align: center;
     font-size: 12px;
@@ -56,13 +48,13 @@ fieldset {
 }
 
 .conteudo {
-    margin-left:20%;
-    margin-right:20%;
+    margin-left:15%;
+    margin-right:15%;
 }
 
 input {
-    width: 250px;
-    height: 40px;
+    width: 80%;
+    height: 50%;
     border: 1px solid #64646494;
     background: rgba(255, 255, 255, 0.31);
     box-shadow: 0px 4px 4px 0px #d2768523;
@@ -86,7 +78,7 @@ select {
 
 button {
     margin-top: 5px;
-    width:80px;
+    width:30%;
     padding:8px;
     border:none;
     color:white;
@@ -108,7 +100,7 @@ button:hover {
 
 span {
     color: rgba(55, 48, 107, 0.73);
-    font-size:22px;
+    font-size:95%;
     font-weight: bold;
 }
 
@@ -121,8 +113,30 @@ span {
 
 input::placeholder {
     color: #8c8c8c6c;
+    font-size:80%;
 }
 
 .newButton {
     height: 80px;
+}
+
+
+@media (min-width:300px) and (max-width:920px) {
+    	.area_left {
+            height:30vh;
+        }
+
+        .area_left img {
+            height:100%;
+        }
+
+        p {
+            font-size:10px;
+            position:relative;bottom:20px;
+        }
+
+        h3 {
+            margin-top: 0%;
+        }
+
 }
