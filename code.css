@@ -77,7 +77,7 @@ select {
 }
 
 button {
-    margin-top: 5px;
+    margin-top: 0px;
     width:30%;
     padding:8px;
     border:none;
@@ -137,6 +137,15 @@ input::placeholder {
 
         h3 {
             margin-top: 0%;
+            line-height: 25px;
+        }
+
+        h5 {
+            font-size:70%;
+        }
+
+        .conteudo {
+            margin-top:20px;
         }
 
 }
